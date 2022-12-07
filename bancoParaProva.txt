@@ -1,0 +1,31 @@
+create database dbinfofilmes;
+
+TABELA DE FILMES
+
+create table tbfilmes(
+    id_filmes int primary key not null,
+    nome varchar(50) not null,
+    ano_lancamento int not null,
+    genero varchar(100) not null,
+    nota float not null
+);
+
+insert into tbfilmes(id_filmes, nome, ano_lancamento, genero, nota)
+values
+(1, 'corra!', 2017, 'Terror', 4.4);
+
+
+
+TABELA DE USUARIOS
+
+create table tbusuarios(
+    id_user int primary key not null,
+    usuario varchar(50) not null,
+    login varchar(50) not null,
+    senha varchar(50) not null
+);
+
+insert into tbusuarios(id_user, usuario, login, senha)
+values
+(1, 'administrador', 'admin', 'admin');
+
