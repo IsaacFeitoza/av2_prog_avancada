@@ -11,7 +11,4 @@ Conexão com o banco de dados
 3- login: admin, senha: admin
 
 
-EQUIPE
-Lucas Monteiro Santos, Matrícula: 37020096
-Isaac Richardy, Matrícula: 37019939
-Pedro Gabriel Vieira Fonseca Bezerra, Matrícula:37019625
+
